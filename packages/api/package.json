@@ -1,0 +1,24 @@
+{
+  "name": "@monorepo-typescript/api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-dev --inspect=8181 --respawn --transpileOnly src/index.ts",
+    "lint": "eslint --fix ./src/*",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "@monorepo-typescript/common": "1.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.2",
+    "@types/node": "^13.5.1",
+    "node-dev": "^4.0.0",
+    "ts-node-dev": "^1.0.0-pre.44"
+  }
+}

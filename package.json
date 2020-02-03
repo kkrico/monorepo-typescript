@@ -1,0 +1,29 @@
+{
+  "name": "monorepo-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "concurrently --kill-others \"npm run start-api\" \"npm run start-web\"",
+    "start-api": "cd packages\\api && npm start",
+    "start-web": "cd packages\\front && npm start"
+  },
+  "dependencies": {
+    "concurrently": "^5.1.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.18.0",
+    "@typescript-eslint/parser": "^2.18.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1",
+    "typescript": "^3.7.5"
+  }
+}
