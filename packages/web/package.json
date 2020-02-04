@@ -1,5 +1,5 @@
 {
-  "name": "@monorepo-typescript/front",
+  "name": "@monorepo-typescript/web",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
