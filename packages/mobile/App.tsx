@@ -1,5 +1,6 @@
 import React from 'react';
 import { SafeAreaView, StyleSheet, ScrollView, View, Text, StatusBar } from 'react-native';
+import HelloWorld from '@monorepo-typescript/common';
 
 import { Colors } from 'react-native/Libraries/NewAppScreen';
 
@@ -11,14 +12,9 @@ const App = () => {
             <StatusBar barStyle="dark-content" />
             <SafeAreaView>
                 <ScrollView contentInsetAdjustmentBehavior="automatic" style={styles.scrollView}>
-                    {global.HermesInternal == null ? null : (
-                        <View style={styles.engine}>
-                            <Text style={styles.footer}>Engine: Hermes</Text>
-                        </View>
-                    )}
                     <View style={styles.body}>
                         <View style={styles.sectionContainer}>
-                            <Text style={styles.sectionTitle}>Hello World</Text>
+                            <Text style={styles.sectionTitle}>{HelloWorld('Daniel')}</Text>
                             <Text style={styles.sectionDescription}>Works</Text>
                         </View>
                     </View>
