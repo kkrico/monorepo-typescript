@@ -4,8 +4,6 @@ import HelloWorld from '@monorepo-typescript/common';
 
 import { Colors } from 'react-native/Libraries/NewAppScreen';
 
-declare var global: { HermesInternal: null | {} };
-
 const App = () => {
     return (
         <>
