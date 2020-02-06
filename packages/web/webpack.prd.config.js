@@ -6,7 +6,7 @@ module.exports = {
     // Enable sourcemaps for debugging webpack's output.
     devtool: 'source-map',
     resolve: {
-        extensions: ['.tsx', '.ts', '.js'],
+        extensions: ['.ts', '.tsx', '.js', '.jsx'],
         alias: {
             'react-native$': 'react-native-web',
         },

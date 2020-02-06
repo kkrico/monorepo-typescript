@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { AppRegistry, View, Text } from 'react-native';
-import { Hello } from '@monorepo-typescript/components';
+import { AppRegistry, View } from 'react-native';
+import { Hello } from '@monorepo-typescript/components/src/Hello';
 
 const App = (): React.ReactElement => (
     <View>

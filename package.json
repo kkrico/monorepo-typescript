@@ -13,7 +13,9 @@
     "start-web": "yarn workspace @monorepo-typescript/web start",
     "start-mobile": "yarn workspace @monorepo-typescript/mobile start"
   },
-  "dependencies": {},
+  "dependencies": {
+    "react-native": "0.61.5"
+  },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.18.0",
     "concurrently": "^5.1.0",
