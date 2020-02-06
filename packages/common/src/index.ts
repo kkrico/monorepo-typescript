@@ -1,1 +1,1 @@
-export default (name: string): string => `Hello World ${name}`;
+export default (name: string): string => `Hello World ${name}`.toUpperCase();

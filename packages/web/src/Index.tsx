@@ -1,6 +1,14 @@
 import * as React from 'react';
-import * as ReactDOM from 'react-dom';
+import { AppRegistry, View, Text } from 'react-native';
+import { Hello } from '@monorepo-typescript/components';
 
-import { Hello } from './components/Hello';
+const App = (): React.ReactElement => (
+    <View>
+        <Hello userName="Daniel Ramos" />
+    </View>
+);
+AppRegistry.registerComponent('App', () => App);
 
-ReactDOM.render(<Hello userName="Daniel" />, document.getElementById('app'));
+AppRegistry.runApplication('App', {
+    rootTag: document.getElementById('app'),
+});

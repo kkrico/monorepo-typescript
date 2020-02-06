@@ -24,8 +24,10 @@
     "webpack-dev-server": "^3.10.1"
   },
   "dependencies": {
+    "@monorepo-typescript/common": "1.0.0",
+    "@monorepo-typescript/components": "1.0.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "@monorepo-typescript/common": "1.0.0"
+    "react-native-web": "^0.12.0"
   }
 }
