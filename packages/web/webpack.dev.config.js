@@ -18,7 +18,7 @@ module.exports = {
         ],
     },
     resolve: {
-        extensions: ['.tsx', '.ts', '.js'],
+        extensions: ['.ts', '.tsx', '.js', '.jsx'],
     },
     devServer: {
         contentBase: './public',
