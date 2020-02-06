@@ -1,4 +1,4 @@
-import * as express from 'express';
+import express from 'express';
 import HelloWorld from '@monorepo-typescript/common';
 
 const PORT = 8081;
