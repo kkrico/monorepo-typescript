@@ -11,7 +11,9 @@
     "start": "concurrently --kill-others \"yarn start-api\" \"yarn start-web\"",
     "start-api": "yarn workspace @monorepo-typescript/api start",
     "start-web": "yarn workspace @monorepo-typescript/web start",
-    "start-mobile": "yarn workspace @monorepo-typescript/mobile start"
+    "start-mobile": "yarn workspace @monorepo-typescript/mobile start",
+    "ios": "yarn workspace @monorepo-typescript/mobile ios",
+    "android": "yarn workspace @monorepo-typescript/mobile android"
   },
   "dependencies": {
     "react-native": "0.61.5"
